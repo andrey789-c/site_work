@@ -1,0 +1,27 @@
+.responce {
+    position: absolute;
+    background-color: white;
+    height: 100px;
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 7px;
+}
+
+.work {
+    font-size: 16px;
+    margin-bottom: 6px;
+}
+.name {
+    font-size: 16px;
+    margin-bottom: 7px;
+}
+.button {
+    background-color: transparent;
+    display: flex;
+    justify-content: start;
+}
+.button:hover {
+    text-decoration: underline;
+}

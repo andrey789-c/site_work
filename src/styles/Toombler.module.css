@@ -1,0 +1,33 @@
+.wrapper {
+    margin-top: 20px;
+    width: 120px;
+}
+.role {
+    border: 1px solid #000;
+    padding: 7px;
+    border-radius: 4px;
+    width: 100%;
+    background-color: transparent;
+    height: 30px;
+}
+
+.toombler {
+    display: none;
+    border-radius: 4px;
+    width: 120px;
+    border: 1px solid #000;
+    position: absolute;
+    background-color: white;
+}
+.toombler.active {
+    display: block;
+}
+
+.button {
+    background-color: transparent;
+    padding: 6px;
+    width: 100%;
+}
+.button:last-child {
+    border-top: 1px solid #000;
+}
