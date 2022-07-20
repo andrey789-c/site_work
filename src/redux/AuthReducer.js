@@ -1,10 +1,12 @@
+import { AUTH, EXIT } from "../utils/constants"
+
 const isAuth = true
 
 export function AuthReducer(state = isAuth, action) {
     switch (action.type) {
-        case "AUTH":
+        case AUTH:
             return state = true
-        case "GO_OUT":
+        case EXIT:
             return state = false
         default:
             return state

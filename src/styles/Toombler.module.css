@@ -1,6 +1,6 @@
 .wrapper {
     margin-top: 20px;
-    width: 120px;
+    width: 145px;
 }
 .role {
     border: 1px solid #000;
@@ -14,7 +14,7 @@
 .toombler {
     display: none;
     border-radius: 4px;
-    width: 120px;
+    width: 145px;
     border: 1px solid #000;
     position: absolute;
     background-color: white;

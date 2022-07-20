@@ -1,0 +1,41 @@
+.profile {
+    width: 800px;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+.content {
+
+}
+.info {
+    
+}
+.name {
+    margin-bottom: 15px;
+}
+.age {
+    margin-bottom: 15px;
+}
+.category {
+    margin-bottom: 15px;
+}
+.experience {
+    margin-bottom: 20px;
+}
+.h3 {
+    font-size: 18px;
+    margin-bottom: 22px;
+}
+.text {
+    line-height: 1.5;
+}
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    padding: 12px;
+    background-color: rgb(0, 170, 0);
+    color: white;
+    border-radius: 6px;
+    margin-top: 12px;
+}

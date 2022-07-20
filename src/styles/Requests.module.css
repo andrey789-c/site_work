@@ -1,0 +1,30 @@
+.wrapper {
+    width: 400px;
+    margin: 25px;
+    border: 1px solid #000;
+    padding: 10px;
+}
+
+.name {
+    font-size: 20px;
+    margin-bottom: 7px;
+}
+.work {
+    line-height: 1.4;
+    margin-bottom: 7px;
+}
+.terms {
+    color: red;
+    margin-bottom: 7px;
+}
+
+.price {
+    text-decoration: underline;
+}
+
+.empty {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}

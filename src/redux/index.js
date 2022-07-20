@@ -4,7 +4,8 @@ import {NameReducer} from './NameReducer'
 import {executorReducer} from './executor.reducer'
 import {JsonReducer} from './JsonSettings'
 import {requestReducer} from './request.reducer'
+import {responseReducer} from './response.reducer'
 
-const reducer = combineReducers({AuthReducer, NameReducer, JsonReducer, executorReducer, requestReducer})
+const reducer = combineReducers({AuthReducer, NameReducer, JsonReducer, executorReducer, requestReducer, responseReducer})
 
 export const store = createStore(reducer)

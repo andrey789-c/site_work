@@ -3,6 +3,7 @@ import {Link, useNavigate} from 'react-router-dom'
 import {useDispatch} from 'react-redux'
 
 import styles from '../styles/Form.module.css'
+import { ADD_INFO } from '../utils/constants';
 
 function Registr() {
     const dispatch = useDispatch()
@@ -24,7 +25,7 @@ function Registr() {
             setError('Заполните все поля')
             return null
         }
-        dispatch({type: 'ADD_INFO', action: {
+        dispatch({type: ADD_INFO, action: {
             name: form.name,
             email: form.email,
             password: form.password

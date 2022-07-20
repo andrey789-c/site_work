@@ -1,0 +1,44 @@
+
+.h1 {
+    text-align: center;
+    font-size: 22px;
+    margin-top: 15px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.window {
+    text-align: center;
+    margin: 0 auto;
+    position: relative;
+    width: 70%;
+}
+
+.dot {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 30px;
+    height: 30px;
+    background-color: black;
+    border-radius: 50%;
+}
+
+.form {
+    margin: 20px 250px;
+    color: blue;
+}
+
+.my__req {
+    display: block;
+    font-size: 20px;
+    text-align: center;
+    width: 20%;
+}
+.my__req:hover {
+    text-decoration: underline;
+}

@@ -3,6 +3,7 @@ import {useSelector, useDispatch} from 'react-redux'
 import styles from '../styles/Form.module.css'
 
 import {Link} from 'react-router-dom'
+import { AUTH } from '../utils/constants';
 
 function Auth() {
     const person = useSelector(state => state.NameReducer)
@@ -25,7 +26,7 @@ function Auth() {
         }
 
         setError('')
-        dispatch({type: "AUTH"})
+        dispatch({type: AUTH})
     }
     return (
         <div className={styles.auth}>

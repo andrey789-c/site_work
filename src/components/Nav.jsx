@@ -1,10 +1,10 @@
-import { useRef, useState } from 'react';
+import { useState } from 'react';
 import {Link} from 'react-router-dom'
-import { useDispatch, useSelector } from 'react-redux';
-import cn from 'classnames'
+import { useDispatch } from 'react-redux';
 
 import styles from '../styles/Nav.module.css'
 import Toombler from './Toombler';
+import { EXIT } from '../utils/constants';
 
 function Nav() {
     const dispatch = useDispatch()
@@ -19,7 +19,7 @@ function Nav() {
     }
     
     function goOut() {
-        dispatch({type: 'GO_OUT'})
+        dispatch({type: EXIT})
     }
 
     return (
@@ -43,6 +43,7 @@ function Nav() {
                     <Toombler setIsNav={setIsNav} setRole={setRole} role={role} />
                     <button onClick={goOut} className={styles.exit}>Выйти</button>
                 </ul>
+                
             </div>
 
         </nav>

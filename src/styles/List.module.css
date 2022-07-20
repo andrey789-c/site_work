@@ -1,0 +1,18 @@
+.wrapper {
+    padding-top: 25px;
+}
+.h2, h3 {
+    font-size: 22px;
+    text-align: center;
+}
+
+.h3 {
+    font-size: 18px;
+}
+.list {
+    width: 400px;
+    margin: 0 auto;
+}
+.li {
+    list-style-type: georgian;
+}

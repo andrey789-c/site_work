@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react';
 import {useDispatch, useSelector} from 'react-redux'
+import {ROLE_REVERSAL} from '../utils/constants'
 
 import styles from '../styles/Toombler.module.css';
 function Toombler({role, setRole, setIsNav}) {
@@ -12,7 +13,7 @@ function Toombler({role, setRole, setIsNav}) {
     }
 
     useEffect(() => {
-        dispatch({type: "ROLE_REVERSAL", action: role})
+        dispatch({type: ROLE_REVERSAL, action: role})
     }, [role])
 
     function changeRole(e) {

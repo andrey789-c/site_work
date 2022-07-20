@@ -10,7 +10,7 @@ function Respond({setIsModal, setIsRespond}) {
     function respond() {
         setIsModal(false)
         setIsRespond(true)
-        dispatch({type: 'ADD_REQUESTS', array: user})
+        dispatch({type: 'ADD_RESPONSE', array: user})
     }
 
     return (
